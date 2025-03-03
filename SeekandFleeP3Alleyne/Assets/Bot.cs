@@ -42,9 +42,14 @@ public class Bot : MonoBehaviour
         Seek(target.transform.position + target.transform.forward * lookAhead);
     }
 
+    void Evade()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
-        Pursue();
+        Evade();
     }
 }
